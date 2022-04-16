@@ -11,9 +11,9 @@ import java.nio.file.Files;
 @Service
 public class BodyService {
 
-    private static final String SUCCESS_RESPONSE_JSON_FILE_PATH = "success_response_body.json";
-    private static final String ERROR_RESPONSE_JSON_FILE_PATH = "error_response_body.json";
-    private static final String SUCCESS_REQUEST_JSON_FILE_PATH = "success_request_body.json";
+    private static final String SUCCESS_RESPONSE_JSON_FILE_PATH = "./success_response_body.json";
+    private static final String ERROR_RESPONSE_JSON_FILE_PATH = "./error_response_body.json";
+    private static final String SUCCESS_REQUEST_JSON_FILE_PATH = "./success_request_body.json";
 
     @Transactional(readOnly = true)
     public String get(String request) {

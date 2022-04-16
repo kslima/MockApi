@@ -1,0 +1,9 @@
+{
+  "data": {
+    "accounts": ["123456", "456987", "987654"],
+    "default_account": "456987",
+    "login": "987654"
+  },
+  "error": false,
+  "error_info": null
+}
